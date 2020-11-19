@@ -1,0 +1,116 @@
+body{
+    background: url(/images/bg-pattern-top.svg) no-repeat -35%, url(/images/bg-pattern-bottom.svg) no-repeat 125% -41%, hsla(185,75%,39%);
+}
+
+.card{
+    background: white;
+    border-radius: 5%;
+    box-shadow: 10px 10px 100px -43px rgba(0,0,0,0.75);
+    font-family: 'Kumbh Sans', sans-serif;
+    height: 390px;
+    width: 380px;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.header{
+    background: url('/images/bg-pattern-card.svg') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 150px;
+}
+
+.profile-pic{
+    background: url('/images/image-victor.jpg') no-repeat center center;
+    background-size: cover;
+    border: 5px solid white;
+    border-radius: 50%;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100px;
+}
+
+.name-age{
+    margin-top: 80px;
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+.name{
+    color: hsl(229,23%,23%);
+    font-weight: 700;
+    margin: 0;
+}
+
+.age{
+    color: hsl(227,10%,46%);
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+.place{
+    color: hsl(227,10%,46%); 
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+hr{
+    border-color: hsla(0, 0%, 59%, 0.1);
+}
+
+.stats{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 65%;
+}
+
+.stats-num p:first-child{
+    color: hsl(229,23%,23%);
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.stats-num p:nth-child(2){
+    color: hsl(227,10%,46%);
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    margin-top: 10px;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+    position: fixed;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media screen and (max-width: 375px){
+    body{
+        background: url(/images/bg-pattern-top.svg) no-repeat 120% 70%, url(/images/bg-pattern-bottom.svg) no-repeat -20% -30%, hsla(185,75%,39%);
+    }
+
+    .card{
+        height: 380px;
+        width: 330px;
+    }
+}
+
+
+
